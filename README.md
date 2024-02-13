@@ -1,2 +1,3 @@
 # StoopidShell
-A stoopid shell.
+
+Just me messing around and leanring to use Git...
