@@ -11,8 +11,10 @@ int main(void) {
                 if(scanf("%s",user_input) == 1) {;
                 	if (strcmp(user_input,"cat") == 0) {
 				cat();
-			} if (strcmp(user_input,"crunch") == 0) {
+			} else if (strcmp(user_input,"crunch") == 0) {
 				crunch();
+			} else if (strcmp(user_input,"bork") == 0) {
+				bork();
 			} else if (strcmp(user_input,"help") == 0) {
 				puts("Available commands: help, cat, crunch");
 			}
