@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+#include "main.h"
 
 int main(void) {
 	system("clear");
@@ -12,16 +10,15 @@ int main(void) {
                 printf("StoopidShell: ");
                 if(scanf("%s",user_input) == 1) {;
                 	if (strcmp(user_input,"cat") == 0) {
-				puts(" /\\_/\\ ");
-				puts("( o.o ) ");
-				puts(" > ^ < ");
+				cat();
+			} if (strcmp(user_input,"crunch") == 0) {
+				crunch();
 			} else if (strcmp(user_input,"help") == 0) {
-				puts("Available commands: help, cat");
-			} else {
-				puts(" ");
+				puts("Available commands: help, cat, crunch");
 			}
 		} else {
 			puts("Nothing was entered...");
 		}
         }
 }
+
