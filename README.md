@@ -1,0 +1,2 @@
+# StoopidShell
+A stoopid shell.
